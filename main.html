@@ -1,60 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Pseudo Classes Example</title>
-    <style>
-        body {
-            background-color: rgb(135, 206, 235);
-            color: #000; 
-        }
-		p {
-			color :#000;
+	<title>Pseudo Classes Example</title>
+	<style>
+		body {
+/* 			background-color: skyblue; */
 		}
-			
-        p:first-child {
-            background-color: black;
-            color: white;
-        }
-        p:last-child {
-			
-            color: red;
-        }
-        li:nth-child(odd) {
-            background-color: white;
-        }
-        li:nth-child(even) {
-            background-color: #dcdcdc;
-        }
-        li:nth-child(3) {
-            background-color: pink;
-        }
-        .article p {
-            color: white;
-            background-color: black;
-        }
-        .para4 {
-            color: red;
-        }
-
+		:root{
+			background-color:rgb(135, 206, 235);
+		}
+		p:first-child {
+			background-color: black;
+			color: white;
+		}
+		p:last-child {
+			color: red;
+		}
+		li:nth-child(odd) {
+			background-color: white;
+		}
+		li:nth-child(even) {
+			background-color: #dcdcdc;
+		}
+		li:nth-child(3) {
+			background-color: pink;
+		}
 		.para1{
-			
+			color:white;
+			background-color:black;
 		}
-    </style>
+		.para4{
+			color:red;
+		}
+
+		article p{
+			margin: 0;
+			padding: 0;
+		}
+	</style>
 </head>
 <body>
-    <div class="article">
-        <p class="para1">First paragraph</p>
-        <p class="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ea deleniti vitae at delectus animi, quas sapiente libero ex atque assumenda consequuntur, eaque incidunt quia commodi beatae quis, magni saepe?</p>
-        <p class="para3">Voluptates ea deleniti vitae at delectus animi, quas sapiente libero ex atque assumenda consi beatae quis, magni saepe?</p>
-        <p class="para4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ea deleniti vitae at delectus animi, quas sapiente libero ex atque assumenda consequuntur, eaque incidunt quia commodi beatae quis, magni saepe?</p>
-    </div>
-
-    <ul>
-        <li>List item 1</li>
-        <li>List item 2</li>
-        <li>List item 3</li>
-        <li>List item 4</li>
-        <li>List item 5</li>
-    </ul>
+	<div class="article"></div>
+	<p class="para1">First paragraph</p>
+	<p class="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ea deleniti vitae at delectus animi, quas sapiente libero ex atque assumenda consequuntur, eaque incidunt quia commodi beatae quis, magni saepe?</p>
+	<p class="para3">Voluptates ea deleniti vitae at delectus animi, quas sapiente libero ex atque assumenda consi beatae quis, magni saepe?</p>
+	<p class="para4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ea deleniti vitae at delectus animi, quas sapiente libero ex atque assumenda consequuntur, eaque incidunt quia commodi beatae quis, magni saepe?</p>
+	
+	<ul>
+		<li>List item 1</li>
+		<li>List item 2</li>
+		<li>List item 3</li>
+		<li>List item 4</li>
+		<li>List item 5</li>
+	</ul>
+	
 </body>
 </html>
